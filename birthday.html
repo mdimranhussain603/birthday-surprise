@@ -1,89 +1,121 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Tamanna</title>
 
-    <title>Happy Birthday</title>
-
-    <link rel="stylesheet" href="style.css">
+```
+<link rel="stylesheet" href="style.css">
+```
 
 </head>
 
 <body>
 
-    <!-- Floating Balloons -->
+```
+<!-- Floating Balloons -->
 
-    <div class="balloon balloon1">🎈</div>
-
-    <div class="balloon balloon2">🎈</div>
-
-    <div class="balloon balloon3">🎈</div>
-
-
-    <!-- Birthday Page -->
-
-    <div class="birthday-page">
+<div class="balloon balloon1">🎈</div>
+<div class="balloon balloon2">🎈</div>
+<div class="balloon balloon3">🎈</div>
 
 
-        <!-- Confetti -->
+<!-- Birthday Page -->
 
-        <div id="confetti-container"></div>
+<div class="birthday-page">
 
+    <!-- Confetti -->
 
-        <!-- Birthday Card -->
-
-        <div class="birthday-card">
-
-            <div class="cake">
-                🎂
-            </div>
+    <div id="confetti-container"></div>
 
 
-            <h1>
-                Happy Birthday!
-            </h1>
+    <!-- Birthday Card -->
 
+    <div class="birthday-card">
 
-            <h2 id="name">
-                Happy Birthday ❤️
-            </h2>
+        <!-- Cake -->
 
-
-            <p id="personalMessage"></p>
-
-            <p>
-                May all your dreams come true
-                and may you always keep smiling! ✨
-            </p>
-
-
-            <div class="hearts">
-                ❤️ 💖 ❤️ 💖 ❤️
-            </div>
-
-
-            <h3>
-                Have an Amazing Birthday! 🎉
-            </h3>
-            <button id="wishButton" onclick="makeWish()">
-    Make a Wish 🎁
-</button>
-
-<p id="wishMessage"></p>
-
+        <div class="cake">
+            🎂
         </div>
+
+
+        <!-- Birthday Photo -->
+
+        <img src="photo.jpg" alt="Tamanna" class="birthday-photo">
+
+
+        <!-- Heading -->
+
+        <h1>
+            Happy Birthday!
+        </h1>
+
+
+        <!-- Name -->
+
+        <h2 id="name">
+            Happy Birthday Tamanna ❤️
+        </h2>
+
+
+        <!-- Personal Message -->
+
+      <p id="personalMessage">
+    Dear Tamanna ❤️, on your special day, I just want to wish you
+    endless happiness, beautiful moments and all the love you deserve.
+    May your smile always stay this beautiful, and may every new day
+    bring you closer to your dreams. You are truly special, and I hope
+    this birthday becomes a beautiful memory that stays in your heart
+    forever. 💖✨
+</p>
+
+<p>
+    Keep smiling, keep shining, and always stay the wonderful person
+    you are. Happy Birthday once again, Tamanna! 🎂❤️✨
+</p>
+
+
+
+        <!-- Hearts -->
+
+        <div class="hearts">
+            ❤️ 💖 ❤️ 💖 ❤️
+        </div>
+
+
+        <h3>
+            Have an Amazing Birthday! 🎉
+        </h3>
+
+
+        <!-- Wish Button -->
+
+        <button id="wishButton" onclick="makeWish()">
+            Make a Wish 🎁
+            <audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+        </button>
+
+        <p id="wishMessage"></p>
 
     </div>
 
+</div>
 
-    <!-- JavaScript -->
 
-    <script src="script.js"></script>
+<!-- JavaScript -->
 
+<script src="script.js"></script>
+```
+<audio id="birthdaySong" controls>
+    <source src="song.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
 </body>
 
 </html>
